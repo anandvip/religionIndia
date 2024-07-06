@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mandala 90 Card</title>
+    <title>Religious and Biker Species</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding-top: 60px;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            margin: 40px 0 20px;
+            color: #333;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
         }
         .card {
             background-color: white;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             overflow: hidden;
-            width: 300px;
             transition: transform 0.3s ease;
-          height:fit-content;
         }
         .card:hover {
             transform: translateY(-5px);
@@ -35,83 +58,121 @@
             height: auto;
             display: block;
             border-radius: 10px;
-          border-bottom-left-radius: 0;
-          border-bottom-right-radius: 0
         }
         .card-content {
             padding: 20px;
         }
         .card-title {
-            font-size: 24px;
+            font-size: 1.2rem;
             font-weight: bold;
             margin: 0 0 10px 0;
-          
         }
         .card-description {
-            font-size: 16px;
+            font-size: 0.9rem;
             color: #333;
             line-height: 1.4;
         }
-      .cardsH{
-        display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr;
-        gap:20px;
-      }
-      hr{
-        border-size:0.75pt dotted;
-      }
+        hr {
+            border: none;
+            border-top: 1px dotted #ccc;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
-  
-   <section class="cardsH">
-       <div class="card">
-          <div class="image-container">
-              <img src="https://raw.githubusercontent.com/anandvip/kali-yuga/main/flat/DALL%C2%B7E%202024-07-06%2000.55.34%20-%20A%20flat%202D%20illustration%20of%20Brahma%20Sarovar.%20The%20illustration%20should%20be%20simple%20and%20minimalistic%2C%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20Brahma%20Sa.webp" alt="Mandala 90">
-          </div>
-          <div class="card-content"><hr>
-              <h2 class="card-title">Brahama sarovar, kurukshetra</h2> <hr>
-              <p class="card-description">
-                  Mythology: According to Hindu epics (Itihasa), Lord Brahma created the universe after performing a grand yajna (ritual sacrifice) on the very land of Kurukshetra. Brahma Sarovar is thus believed to be the cradle of civilization itself.
-              </p>
-          </div>
-      </div>
-        <div class="card">
-          <div class="image-container">
-              <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/DALL%C2%B7E%202024-07-06%2000.56.32%20-%20A%20flat%202D%20illustration%20of%20the%20Gateway%20of%20India.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20The.png?raw=true" alt="">
-          </div>
-          <div class="card-content"><hr>
-              <h2 class="card-title">Gateway of india, Bombay</h2> <hr>
-              <p class="card-description">
-                  Commemoration:  The monument was erected to honor the arrival of King George V and Queen Mary, the first British monarch and his consort to visit India, in December 1911.
-              </p>
-          </div>
-      </div>
-     <div class="card">
-          <div class="image-container">
-              <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/India%20Gate.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20India%20Gate%20sh.png?raw=true" alt="">
-          </div>
-          <div class="card-content"><hr>
-              <h2 class="card-title">india Gate, New Delhi</h2> <hr>
-              <p class="card-description">
-                  Standing tall in Delhi, the India Gate is a majestic war memorial. Built under British rule, it commemorates the sacrifices of Indian soldiers. The Imperial War Graves Commission, established after World War I, commissioned the monument. Designed by Sir Edwin Lutyens, a renowned architect, the foundation stone was laid in 1921. 
-              </p>
-          </div>
-      </div>
-         <div class="card">
-          <div class="image-container">
-              <img src="https://raw.githubusercontent.com/anandvip/kali-yuga/main/flat/%20Golden%20Temple%20(Harmandir%20Sahib).%20The%20illustration%20should%20be%20simple%20and%20minimalistic%2C%20using%20clean%20lines%20and%20a%20limited%20col.webp" alt="">
-          </div>
-          <div class="card-content"><hr>
-              <h2 class="card-title">Golden temple, Amritsar</h2> <hr>
-              <p class="card-description">
-                  <strong>Architect and Significance:</strong>  While the exact architect isn't documented, tradition suggests Hazrat Mian Mir, a Muslim saint, laid the foundation stone. This collaboration highlights the spirit of religious tolerance embedded in Sikhism.
-<strong>Guru Arjan Dev, the fifth Guru,</strong> is credited with constructing the original temple structure in 1588 or 1604. 
+    <header>
+        <h1>Religious and Biker Species</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2 class="section-title">One Species of Religion</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://raw.githubusercontent.com/anandvip/kali-yuga/main/flat/DALL%C2%B7E%202024-07-06%2000.55.34%20-%20A%20flat%202D%20illustration%20of%20Brahma%20Sarovar.%20The%20illustration%20should%20be%20simple%20and%20minimalistic%2C%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20Brahma%20Sa.webp" alt="Brahma Sarovar">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Brahma Sarovar, Kurukshetra</h3>
+                        <hr>
+                        <p class="card-description">Mythology: According to Hindu epics (Itihasa), Lord Brahma created the universe after performing a grand yajna (ritual sacrifice) on the very land of Kurukshetra. Brahma Sarovar is thus believed to be the cradle of civilization itself.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/DALL%C2%B7E%202024-07-06%2000.56.32%20-%20A%20flat%202D%20illustration%20of%20the%20Gateway%20of%20India.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20The.png?raw=true" alt="Gateway of India">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Gateway of India, Mumbai</h3>
+                        <hr>
+                        <p class="card-description">Commemoration: The monument was erected to honor the arrival of King George V and Queen Mary, the first British monarch and his consort to visit India, in December 1911.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/India%20Gate.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20India%20Gate%20sh.png?raw=true" alt="India Gate">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">India Gate, New Delhi</h3>
+                        <hr>
+                        <p class="card-description">Standing tall in Delhi, the India Gate is a majestic war memorial. Built under British rule, it commemorates the sacrifices of Indian soldiers. The Imperial War Graves Commission, established after World War I, commissioned the monument. Designed by Sir Edwin Lutyens, a renowned architect, the foundation stone was laid in 1921.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://raw.githubusercontent.com/anandvip/kali-yuga/main/flat/%20Golden%20Temple%20(Harmandir%20Sahib).%20The%20illustration%20should%20be%20simple%20and%20minimalistic%2C%20using%20clean%20lines%20and%20a%20limited%20col.webp" alt="Golden Temple">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Golden Temple, Amritsar</h3>
+                        <hr>
+                        <p class="card-description"><strong>Architect and Significance:</strong> While the exact architect isn't documented, tradition suggests Hazrat Mian Mir, a Muslim saint, laid the foundation stone. This collaboration highlights the spirit of religious tolerance embedded in Sikhism. <strong>Guru Arjan Dev, the fifth Guru,</strong> is credited with constructing the original temple structure in 1588 or 1604.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
- 
-              </p>
-          </div>
-      </div>
-    </section>
+        <section>
+            <h2 class="section-title">Another Religious Species</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/Honda%20CBR%201000%20RR%20Fireblade%20Repsol%20edition.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20.png?raw=true" alt="Honda CBR 1000 RR">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Biker Species, Kurukshetra - 1</h3>
+                        <hr>
+                        <p class="card-description">Mythology: According to Hindu epics (Itihasa), Lord Brahma created the universe after performing a grand yajna (ritual sacrifice) on the very land of Kurukshetra. Brahma Sarovar is thus believed to be the cradle of civilization itself. Then came bikers to enrich the teaming life with their enriched machine sounds that kindled everyone's heart and mind.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/DALL%C2%B7E%202024-07-06%2008.33.07%20-%20A%20flat%202D%20illustration%20of%20the%20Kawasaki%20Ninja%20H2.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.%20Ke.png?raw=true" alt="Kawasaki Ninja H2">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Biker Species, Kurukshetra - 2</h3>
+                        <hr>
+                        <p class="card-description">Mythology: According to Hindu epics (Itihasa), Lord Brahma created the universe after performing a grand yajna (ritual sacrifice) on the very land of Kurukshetra. Brahma Sarovar is thus believed to be the cradle of civilization itself. Then came bikers to enrich the teaming life with their enriched machine sounds that kindled everyone's heart and mind.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://github.com/anandvip/kali-yuga/blob/main/flat/DALL%C2%B7E%202024-07-06%2008.33.00%20-%20A%20flat%202D%20illustration%20of%20the%20Suzuki%20V-Strom%20800DE.%20The%20illustration%20should%20be%20simple%20and%20minimalistic,%20using%20clean%20lines%20and%20a%20limited%20color%20palette.png?raw=true" alt="Suzuki V-Strom 800DE">
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                        <h3 class="card-title">Biker Species, Kurukshetra - 3</h3>
+                        <hr>
+                        <p class="card-description">Mythology: According to Hindu epics (Itihasa), Lord Brahma created the universe after performing a grand yajna (ritual sacrifice) on the very land of Kurukshetra. Brahma Sarovar is thus believed to be the cradle of civilization itself. Then came bikers to enrich the teaming life with their enriched machine sounds that kindled everyone's heart and mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
